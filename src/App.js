@@ -9,14 +9,13 @@ export default function App() {
   return (
     <BrowserRouter>
       <Header />
-      <>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/cart">
-          <Cart />
-        </Route>
-      </>
+
+      <Route exact path="/">
+        <Home />
+      </Route>
+      <Route path="/cart">
+        <Cart />
+      </Route>
     </BrowserRouter>
   );
 }
