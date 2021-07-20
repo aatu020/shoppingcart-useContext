@@ -1,0 +1,26 @@
+.header {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 10px;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  background-color: brown;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav > li {
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+}
+.nav > li :hover {
+  color: rgb(224, 202, 202);
+}
